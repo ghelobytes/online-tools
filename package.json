@@ -1,14 +1,13 @@
 {
-	name: 'NodeJS app by ghelo',
-	description: 'Online tools for NodeJS',
-	version: '0.0.1',
-	private: true,
-	dependencies: {
-		'cors-anywhere': '0.1.9'
-	},
-	scripts:{
-		start: 'node server.js'
-	}
-	main: 'server.js'
-
+  "name": "online_tools",
+  "description": "Online tools hosted in OpenShift",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "cors-anywhere": "~0.1.6"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js"
 }
